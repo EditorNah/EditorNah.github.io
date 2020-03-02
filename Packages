@@ -1,3 +1,20 @@
+Package: acreson.cj.alipayforestun
+Version: 0.3.3-9
+Architecture: iphoneos-arm
+Maintainer: Acreson <342080124@qq.com>
+Depends: mobilesubstrate
+Filename: ./deb/支付宝装B.deb
+Size: 6252698
+MD5sum: 1fdc31f444915d330bfe24fcdca9b6cb
+SHA1: dfd57e6c7ee0a31610cd0b44655501c64e3be679
+SHA256: 4edc053c6fac544b616132707220feeb4c0258ea60845bb842b2ae2a3fb3b04c
+Section: Acreson-增强(Enhance)
+Description: 蚂蚁森林能量，小鸡收割机，你懂的。
+Author: 支付宝B
+Icon: file:///Applications/Cydia.app/Sections/Acreson-增强(Enhance).png
+Name: 支付宝B「Unc0ver」
+Sponsor: Acreson <342080124@qq.com>
+
 Package: cn.yttxcs.otrlocationn
 Version: 4.6.1-1
 Architecture: iphoneos-arm
@@ -17,6 +34,22 @@ Icon: https://yttxcs.com/image/icon/cn.yttxcs.otrlocation.png
 Moderndepiction: https://yttxcs.com/sileo/300
 Name: AnyWhere 「虚拟定位/设备」
 Sponsor: 幺筒源<409774743@qq.com>
+
+Package: com.25mao.MiYou
+Version: 0.1-9
+Architecture: iphoneos-arm
+Maintainer: admin@25mao.com
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./deb/老猫密友-0.1.9.deb
+Size: 205648
+MD5sum: 02fd1135f5e23fec0ae1716253870b15
+SHA1: d6b960ea11028b52a41a037393614f3a9fbe5730
+SHA256: 6d2de0f45d9e0da1ac9d2c3e19cdbf4bfedc25e9ace72b8c86e89d4939c2c273
+Section: 微信插件
+Priority: optional
+Author: Mao
+Icon: null
+Name: 微信助手-密友
 
 Package: com.abcydia.NetControl
 Version: 1.0.1-5
@@ -54,6 +87,23 @@ Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPrefe
 Name: CallBar XS 状态栏呼叫
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: com.adamseiter.animationsbefastplus
+Version: 3.1
+Architecture: iphoneos-arm
+Maintainer: eXqusic
+Installed-Size: 360
+Depends: firmware (>=11.0), mobilesubstrate, preferenceloader, applist
+Conflicts: com.adamseiter.animationsbefast, jp.novi.FakeClockUp, jp.novi.FakeClockUp2, com.zezblog.noslowanimationsar, com.marcosinghof.noslowanimations, com.pknauf.nsa, com.idevicehacked.nsa
+Filename: ./deb/AnimationsBeFastPlus_3.1_.deb
+Size: 38724
+MD5sum: b578ccc9dd4c0b7f3a910a12f42b743e
+SHA1: 4ddebbc9c2eabf4410e4814a503b845f32e08f35
+SHA256: b1760f40ba247d0844602f3514258ac971b04097b328322a9b6cab2a0fca0742
+Section: Tweaks
+Description: Speed up animations
+Author: eXqusic
+Name: AnimationsBeFastPlus
+
 Package: com.asterix.digitalbattery13
 Version: 1.0.0
 Architecture: iphoneos-arm
@@ -76,6 +126,110 @@ Dev: asterix
 Icon: file:///Library/PreferenceBundles/DigitalBattery13.bundle/icon@2x.png
 Name: DigitalBattery13
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.cokepokes.appstoreplusplus
+Version: 0.9.8-9
+Architecture: iphoneos-arm
+Maintainer: CokePokes
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.unlimapps.uaupdatetools
+Filename: ./deb/降级插件最新版 .deb
+Size: 1346934
+MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
+SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
+SHA256: b9a703c89b4b53a96e16e284a0dc6b908a28dc3f4420c930e78816afbf27bf2f
+Section: Tweaks
+Priority: optional
+Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3.1
+Author: CokePokes
+Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
+Name: AppStore++
+
+Package: com.cydia.love.kpcrack
+Version: 1.2
+Architecture: iphoneos-arm
+Maintainer: Smoking
+Depends: mobilesubstrate
+Filename: ./deb/王者2.2倍一键激活-烟草修改1.2版.deb
+Size: 442614
+MD5sum: b106241002cbf9ceefb736902682db5d
+SHA1: 02fc93bc928660501bcae08eb1c2ec7a037abed5
+SHA256: 4795e84e9ae1d9f035df8a380542a0cecbb80a417b08995d8a66591f19784585
+Section: 应用插件
+Author: Smoking
+Name: 王者荣耀视距-烟草修改
+Sponsor: Acreson
+
+Package: com.cydia.love.myhyzhuanxiang
+Version: 3.1.8
+Architecture: iphoneos-arm
+Maintainer: Ant 蚂蚁源™ <admin@cydia.love>
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, ws.hbang.common (>= 1.11)
+Conflicts: apt.cydiakk.huiyuanzhuanxiang2,apt.cydiakk.huiyuanzhuanxiang,com.cydia.love.huiyuanzhuanxiang12,com.cydia.love.qunzhuzhuanyon
+Filename: ./deb/福利破解合集，设置里开启3.1.8.deb
+Size: 273162
+MD5sum: 012bd693499668bab3015d6db3646b92
+SHA1: 21ef2e6c54a7366a5e80e559a48e112b85543eb4
+SHA256: a7f20eb3a8586566a8f4b13ea875fe7c6b13dcb1e2a02bb9c654cf0ba10fd402
+Section: 会员专享
+Tag: cydia::commercial
+Author: lenglengyu
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Name: 超级会员专享插件
+Sponsor: Ant 蚂蚁源™ <https://apt.cydia.love/>
+
+Package: com.cydiaapp.Jsbox
+Version: 0.1-1
+Architecture: iphoneos-arm
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./deb/Thor-jsbox去除共享插件.deb
+Size: 34858
+MD5sum: cd5eb4eb962489b6a88b1adef59f6cb1
+SHA1: 5f428ea33d23d60398381b7f2409ca2f6b971339
+SHA256: 151b31f453001f84f6909f8a72a073029dcc74d12205b40072053c4cc864e632
+Section: 应用插件‣
+Priority: optional
+Author: 柠檬&胖虎
+Icon: https://cydiavip.com/icon/sileo/sileo1.png
+Name: 柠檬Jsbox-Thor去除共享限制补丁
+
+Package: com.cydiabc.dleasy
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Ai-小苹果
+Depends: mobilesubstrate, firmware (>= 7.0), preferenceloader
+Filename: ./deb/一键下载油管推特等视频.deb
+Size: 310882
+MD5sum: b058dc029ad981ab8b67982cfeec8226
+SHA1: ab041609048090c3090e14d2a15c54cc5b3d4183
+SHA256: d10e7b07669c5abb6275ea575106763092cd2c1f743e8f3aa7f5769bf5898bd1
+Section: 工具
+Description: 国外主流社交软件视频长按一键下载，支持Twitter，YouTube，TikTok，Instagram，Tumblr，Facebook等，无设置项目，安装生效
+A12: 1
+Author: Ahmed Bafkir
+Icon: file:///Applications/Cydia.app/Sections/Utilities.png
+Icon2: 5.png
+Name: DLEasy短视频下载神器
+Sponsor: Ai-小苹果
+
+Package: com.cydiabc.frame
+Version: 1.3.0
+Architecture: iphoneos-arm
+Maintainer: Ai-小苹果
+Depends: mobilesubstrate,preferenceloader,firmware (>= 10.0)
+Filename: ./deb/屏保视频 可以播放音乐 装逼神器.deb
+Size: 44894
+MD5sum: ffb19218311c5dc4148dd774b5576eb5
+SHA1: 98f3e16da7905130c50e5b09343d2810e03d87e7
+SHA256: 1d290ea3fd748cd55894e4e83a6dc481f5de29fef293fc5563a43b8ff4c6356a
+Section: 系统
+Description: 主屏幕添加视频为墙纸，兼容12-13系统，11系统自测，无设备
+A12: 1
+Author: Zerui Chen
+Icon: file:///Applications/Cydia.app/Sections/Tweaks.png
+Icon2: 12.png
+Name: Frame视频墙纸
+Sponsor: Ai-小苹果
 
 Package: com.ejiaogl.jsboxhook
 Version: 0.1-2
@@ -146,6 +300,87 @@ Dev: kingpuffdaddi
 Icon: file:///Library/ControlCenter/Bundles/CCVibration.bundle/Icon@2x.png
 Name: CCVibration
 
+Package: com.laughingquoll.banana
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./deb/banana当音乐想起自动开启降噪.deb
+Size: 3124
+MD5sum: 0419f86d9391e36076d9c807fc52cbfc
+SHA1: f9097b16d6084c4c93c7079db3a9f030fd3a8799
+SHA256: 3c09c9c832b795fd1a6b40e156112bde8dc5c348f6cf5ef9e297b5b7967934e2
+Section: Tweaks
+Description: Toggle noise cancelation when media is paused.
+Author: LaughingQuoll
+Name: Banana
+
+Package: com.laughingquoll.prysm
+Version: 0.9.2
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 1732
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Conflicts: com.pulandres.prysm.beta
+Replaces: com.pulandres.prysm.beta
+Filename: ./deb/优雅文件夹prysm0.9.2最新版.deb
+Size: 218352
+MD5sum: ae761191c40cb90b231a856a676b59ce
+SHA1: fc00f8a2bd192bfe7704fa21f148117c385bcf44
+SHA256: 63b9b110d3418adf8292e7ad7a40e95c69c86b974d6176c0db60de8478355969
+Section: Tweaks
+Description: Your control center, reimagined.
+Author: LaughingQuoll
+Name: Prysm Beta 9
+
+Package: com.laughingquoll.siliquapro
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll
+Installed-Size: 592
+Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
+Filename: ./deb/siliqurapro（为你的AirPods增加更多操作.deb
+Size: 92462
+MD5sum: e84298a15d41a4d77dbc04e40a94964d
+SHA1: 1bef6c58c2744d5c51f0877807898c739fe5963c
+SHA256: 62b40aa6bd3380a5550c964bf8239a778ab022dd9e888b9a845b85fb7def73aa
+Section: Tweaks
+Description: Custom actions for AirPods Pro
+Author: LaughingQuoll
+Name: Siliqua Pro
+
+Package: com.love.sakura
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: run
+Depends: mobilesubstrate
+Filename: ./deb/Filza安装裸奔插件.deb
+Size: 1177688
+MD5sum: e81c41f1f119776c42586c3418689089
+SHA1: d9ccfeea169606bdaef48ac13ccb4b3f6cd2b3d5
+SHA256: 8705517eef902b88aea0d61ceba59fecb49b98f93ce9b827e97b7c37b8678c4d
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: run
+Name: Sakura
+
+Package: com.mmlyric.mika
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Mika
+Installed-Size: 620
+Depends: mobilesubstrate
+Filename: ./deb/歌词悬浮窗(AOD)1.0.0.deb
+Size: 631284
+MD5sum: 90970b2703eddb896c91b44892647e7e
+SHA1: 5cd2d6ce8599b4c7fe0cd732a9a6506515585b7c
+SHA256: 4bbb2a5a7e39d99b8ea3d7160be21ae2afa67c36e79fccdb36bc749f5a0e43f5
+Section: Tweaks
+Description: 歌词悬浮窗(AOD)
+Author: Mika
+Name: MMLyric
+
 Package: com.nan.ft
 Version: 0.1.3
 Architecture: iphoneos-arm
@@ -164,6 +399,42 @@ Description: 安装后在 Terminal 运行 ft
 Author: zhaonan <Invalidunit@icloud.com>
 Name: ft
 
+Package: com.p2kdev.snapper2cc
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: P2KDev <p2kdev@gmail.com>
+Installed-Size: 156
+Depends: mobilesubstrate,com.opa334.ccsupport
+Filename: ./deb/com.p2kdev.snapper2cc_1.0_iphoneos-arm.deb
+Size: 16194
+MD5sum: d38df1b9b4522e4086bc16539866d781
+SHA1: 39b8972d0bd3771fbfe07aa0e63b479215a4f6b0
+SHA256: beb3f8e299af466db5688f9614af83cd51a717beeea4c504806acb1af1fcd101
+Section: Control Center (Modules)
+Description: Invoke the Snapper2 Tweak's actions using CC Toggle!
+Author: P2KDev <p2kdev@gmail.com>
+Icon: file:///Library/Application Support/Snapper2CC/icon.png
+Name: Snapper2 CC Toggle
+
+Package: com.pulandres.prysm.beta
+Version: 0.9.4
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 1613
+Depends: mobilesubstrate
+Filename: ./deb/优雅控制中心prysm.094最新版.deb
+Size: 344322
+MD5sum: 6d0951eadf0afe37596a179c52e18161
+SHA1: 31889d026885fe88a1c3d6aab5f8a0b91f9686c2
+SHA256: 9c5e7571402f03e6ecdff2f7262617e95a875c47c8633c1629b4b07cc8291a1b
+Section: Tweaks
+Description: Your control center, reimagined.
+Author: LaughingQuoll
+Depiction: https://repo.pulandres.me/index.php?pid=1496
+Icon: http://repo.pulandres.me/CydiaIcon.png
+Name: Prysm Beta 9 Free
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1496
+
 Package: com.springtomize.st5
 Version: 5.0.4
 Architecture: iphoneos-arm
@@ -179,6 +450,21 @@ Section: Tweaks
 Description: Customize your device like never before.
 Author: sharedRoutine
 Name: Springtomize 5
+
+Package: com.wxhbts.PullOverPro
+Version: 2.0~b5
+Architecture: iphoneos-arm
+Depends: firmware (>= 10.0), mobilesubstrate, com.rpetrich.rocketbootstrap, applist, com.julioverne.cracktool4 | com.wxhbts.cracktool4
+Filename: ./deb/Pulloverpor分屏支持13.deb
+Size: 849650
+MD5sum: e827f3286cb33d9062dfb31e16e95ede
+SHA1: cce669d176decd31373f67ff3c93225ea576d721
+SHA256: 70915f1f57f0f7c28378d0b7cda637de3562c1b185b8138dafbc0bad344d9bb9
+Section: 常用插件
+Priority: optional
+Author: c1d3r
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+Name: PullOver Pro 快捷分屏
 
 Package: com.xybp888.CallAssistBar
 Version: 1.0-4
@@ -198,6 +484,21 @@ Author: xybp888 <8657156@qq.com>
 Icon: web.png
 Name: 简约来电窗口化
 
+Package: com.yourcompany.fengniao
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: jay
+Depends: mobilesubstrate
+Filename: ./deb/xin蜂鸟主插件.deb
+Size: 1825744
+MD5sum: f26f2c3fa05f495fb24293308b4835fd
+SHA1: e9a5092b47f8437347411c89a867a3da90fcd486
+SHA256: 6c120eee8173f0e5426e040834dcdadbf1ae2638956a4c91fb9d95e23829b1bd
+Section: Tweaks
+Description: An awesome MobileSubstrate tweak!
+Author: jay
+Name: fengniao
+
 Package: com.yourepo.calicocat.pagebarprobeta
 Version: 2.3.1
 Architecture: iphoneos-arm
@@ -212,6 +513,41 @@ Section: Tweaks
 Description: Make your page dots yours
 Author: calicocat <CalicoCatalyst12@gmail.com>
 Name: Pagebar
+
+Package: com.yourepo.gmspack.istec5
+Version: 1.9.1
+Architecture: iphoneos-arm
+Maintainer: gmspack <gmspack404@protonmail.com>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: ./deb/Pubg国际服鸡腿自瞄.deb
+Size: 1261236
+MD5sum: 6ec6ff43bf3299b7b9a2727764adf1b4
+SHA1: 0f8b7fb138717ea07484ff50433f0ec73699404c
+SHA256: c007213c28568382f58f36917f5c9f0abb876342c40f97ef02b15b2a2dc74852
+Section: Games (PUBG ISTEC)
+Description: SOME IMPROVEMENTS READ THE DESCRIPTION!
+Author: Aka <gmspack404@protonmail.com>
+Name: ISTEC 1.9.1
+
+Package: com.yourepo.lly.prozs
+Version: 3.3.8
+Architecture: iphoneos-arm
+Maintainer: lenglengyu <lenglengyu@126.com>
+Installed-Size: 4008
+Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
+Conflicts: com.yourepo.lenglengyu.prozs
+Filename: ./deb/pro助手 开启各种vip权限(1).deb
+Size: 1224686
+MD5sum: 41d2024a1bd90a2e0e34187a9a02cf28
+SHA1: e110965892c3cdf738306b8c08cd21518089baa5
+SHA256: 863ac790e402dda526bf6bbbcd3541a54b8564678bbfde242532e99e56fe003d
+Section: Tweaks
+Description: 已适配A12。各类常用app开启Pro权限，相关app商店下载即可。即将添加更多app。
+Author: lenglengyu
+Depiction: https://repo.lenglengyu.top/packageInfo/prozs.html
+Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
+Name: Pro助手
+Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
 
 Package: jp.akusio.backgrounderaction13
 Version: 0.1.4
@@ -361,6 +697,22 @@ Description: 控制中心优化，便捷的控制中心由你来设定，详情�
 Author: Netskao
 Name: AppsHide
 
+Package: netskao.apptools13
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 600
+Depends: firmware (>= 13.2), mobilesubstrate, preferenceloader
+Filename: ./deb/Apptools13_1.3.1_.deb
+Size: 192410
+MD5sum: b7b267b136b668aea7ce0e35e655b38a
+SHA1: 4d99b7b557891e85d8a45bf350c5f9f3438c91e0
+SHA256: 98a3e7d1503bf0e5ca38ca437c7a3050a0a0bc3d6f690df970a0d67605948e5d
+Section: Netskao-插件
+Description: App Tools 是一款桌面图标手势增强工具，此插件为收费插件，安装后自助购买！记得备注udid！此版本为iOS13专用
+Author: aReo
+Name: AppTools for iOS13
+
 Package: netskao.awemebeautify
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -439,6 +791,22 @@ Section: Netskao-增强
 Description: 车来了完美去所有广告，点击“更多信息”跳转下载
 Author: 7Loopy
 Name: 车来了 NoAds
+
+Package: netskao.cydown
+Version: 7.0.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: cydia, coreutils-bin, coreutils, apt7, firmware (<< 8.3) | ldid (>= 1:1.2.1), mobilesubstrate, preferenceloader
+Conflicts: com.julioverne.cydown, com.cydiabc.cydown
+Filename: ./deb/cydown_7.0.1必装！！！.deb
+Size: 3553328
+MD5sum: b5e975bc44e584f5c39b9e4c9208749f
+SHA1: 2c520f6689fef9cef1a70b990189aa123524c055
+SHA256: 567fe783b9c950fc0d8747ea18cdad1210a8a9040e993598d4e3fdb27fa6573d
+Section: Netskao-应用
+Description: Cydia增强插件，已完整汉化，增强下载-快捷添加-删除源等
+Author: julioverne
+Name: CyDown
 
 Package: netskao.dbfmnoads
 Version: 1.0-1
@@ -1138,7 +1506,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Installed-Size: 896
 Depends: mobilesubstrate, applist (>= 1.5.15~beta1), preferenceloader (>= 2.2.4), com.rpetrich.rocketbootstrap, ws.hbang.common (>= 1.14)
-Filename: ./deb/shadow_2.0.21_iphoneos-arm.deb
+Filename: ./deb/netskao.shadow_2.0.21_iphoneos-arm.deb
 Size: 110780
 MD5sum: 41a57bd46239a99c3729c56fd0c7a178
 SHA1: 670c0bc323c3b545a0f6f900160fb4d31582b66c
@@ -1179,6 +1547,39 @@ Section: Netskao-增强
 Description: Star视频编辑(星雨视频商店版)去所有广告，点击“更多信息”跳转下载
 Author: 7Loopy
 Name: Star视频 NoAds
+
+Package: netskao.timepurification
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 372
+Depends: mobilesubstrate
+Filename: ./deb/加粗TimePurification_1.0-1.deb
+Size: 70846
+MD5sum: eebdeb941a3da440cea5378faa1654f9
+SHA1: 4e452adc04c2463d69519c779c4028129592fd5b
+SHA256: 97c63f662a0df1ca7876a07548c2761bf819866a9da91c9e58771422de7420a9
+Section: Netskao-Tweaks
+Description: 时间净化，更实用简洁
+Author: Netskao
+Name: Time Purification
+
+Package: netskao.touchflow
+Version: 1.0.6
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 820
+Depends: firmware (>= 11.0), preferenceloader, mobilesubstrate, com.creaturesurvive.libcscolorpicker
+Conflicts: netskao.showtouch
+Filename: ./deb/Touchflow_1.0.6_录屏指示.deb
+Size: 211582
+MD5sum: f1e9e1466c97deadadc2e0b39c581173
+SHA1: 5b8af7148a4128becb54d7e1a8a491721628de8e
+SHA256: 7ca41fcd8c55e234509fd52e807bf3a32c8d2ca02d0812f204e76386a086a747
+Section: Netskao-插件
+Description: 开启手指触摸到屏幕时，触摸指示器，可开启仅录屏时显示，和ShowTouch相同，推荐ShowTouch更为简便且无需依赖，依赖源https://creaturecoding.com/repo/
+Author: CreatureSurvive
+Name: TouchFlow
 
 Package: netskao.ttkgjcrack
 Version: 1.1-1
@@ -1483,4 +1884,27 @@ Section: Netskao-增强
 Description: 最右保存视频去水印，去除启动广告和评论广告等，(播放时就有水印的视频不属于去水印范围)点击“更多信息”跳转下载
 Author: 7Loopy
 Name: 最右 净化
+
+Package: wiki.qaq.nmlrc
+Version: 1.6
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 774
+Depends: mobilesubstrate, firmware (>= 8.0)
+Conflicts: wiki.qaq.DesktopLyricOverlay, wiki.qaq.NeteaseMusicLyricProvider
+Filename: ./deb/网易云桌面歌词推送 (1)(1).deb
+Size: 124444
+MD5sum: b5772ab394d87d3a63dd647b67ac3855
+SHA1: 6ef512446ce122e1dd6fe4ca3285ce4ceeb8f0a9
+SHA256: 8744c7c522d076086abad89505d5e8cb2dde4d9457d0d33fea71ae969f7a151d
+Section: Tweaks
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neteasemusiclyricsoverlayDp
+Description: 网易云音乐桌面歌词推送服务
+Tag: purpose::extension, compatible::ios13
+Author: Lakr Aream <master@233owo.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neteasemusiclyricsoverlayDp
+Dev: lakraream
+Name: NeteaseMusicLyricsOverlay
+Sponsor: thebigboss.org <http://thebigboss.org>
 
