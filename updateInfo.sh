@@ -1,4 +1,4 @@
-sudo dpkg-scanpackages deb/ > Packages
+echo '278100'|sudo dpkg-scanpackages deb/ > Packages
 sed -i "" 's/deb\//\.\/deb\//g' Packages
 rm -f Packages.gz
 rm -f Packages.bz2
