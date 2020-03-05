@@ -1,3 +1,25 @@
+Package: GiantBall.FatBall.iGG.PJ
+Version: 12.0.4
+Architecture: iphoneos-arm
+Maintainer: Aqua Wu <igameguardian@gmail.com>
+Installed-Size: 1372
+Depends: firmware (>= 8.0)
+Filename: ./deb/iGG最新破解版.deb
+Size: 482008
+MD5sum: c6c83e9062bce38d3b66e2e30acf02c1
+SHA1: f4cd34ab881275a3e67a648d5107635c52682fd6
+SHA256: 8859074e848e000315c40cf5c4df5d667ffec47fcd91a2f2f9fa4758f394189c
+Section: Utilities
+Priority: optional
+Homepage: https://igg-server.herokuapp.com/
+Description: 欢迎使用iGG破解版！全网唯一破解版！拒绝收费！
+Tag: purpose::uikit, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11 compatible::ios12
+Author: Aqua Wu <igameguardian@gmail.com>
+Depiction: https://igg-server.herokuapp.com/
+Dev: aqua
+Name: iGG 12 Speed
+Sponsor: Aqua Wu <igameguardian@gmail.com>
+
 Package: acreson.cj.alipayforestun
 Version: 0.3.3-9
 Architecture: iphoneos-arm
@@ -1319,6 +1341,21 @@ Description: 得间小说全功能无限制，去广告，点击“更多信息�
 Author: 7Loopy
 Name: 得间小说 Crack
 
+Package: netskao.dleasy
+Version: 3.0
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate, com.rpetrich.rocketbootstrap
+Filename: ./deb/DLEasy_3.0_.deb
+Size: 310788
+MD5sum: 156e413001686e1aa66797d8d3d53166
+SHA1: da125ea9933590d03e819bbb92d4692bed693b2d
+SHA256: 0245c9b6225808db5f6acf38fdbb5c05e294a10ecba5800549dad2280646a30a
+Section: Netskao-插件
+Description: 国外主流社交软件视频长按一键下载，支持Twitter，YouTube，TikTok，Instagram，Tumblr，Facebook等，无设置项目，安装生效
+Author: AhmedBafkir
+Name: DLEasy
+
 Package: netskao.dmzjpronoads
 Version: 1.0-1
 Architecture: iphoneos-arm
@@ -1681,6 +1718,22 @@ Section: Netskao-增强
 Description: 驾校一点通开启VIP权限，去启动广告，点击“更多信息”跳转下载
 Author: 7Loopy
 Name: 驾校一点通 Crack
+
+Package: netskao.kwyycrack
+Version: 2.2-3
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 232
+Depends: mobilesubstrate
+Filename: ./deb/酷我音乐Crack.deb
+Size: 51510
+MD5sum: 9a377e7ee4876ebf488affa7957adb93
+SHA1: 54d12a4b3c60db2bed3f031dc69e017fbaecee2d
+SHA256: 553d2c59414c49b8f415ff2b645d72b9356ebf717f05bbf93c4ee0b0cfc1ee67
+Section: Netskao-增强
+Description: 机酷我音乐开启全功能，全音乐可下载，VIP皮肤随便用，解锁海外限制等，点击更多信息跳转下载
+Author: 7Loopy
+Name: 酷我音乐 Crack
 
 Package: netskao.lightrickscrack
 Version: 1.0-1
@@ -3041,4 +3094,20 @@ Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=neteasemus
 Dev: lakraream
 Name: NeteaseMusicLyricsOverlay
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: xx.plugin.accelerator
+Version: 1.1.4
+Architecture: iphoneos-arm
+Installed-Size: 1972
+Depends: firmware (>= 5.1)
+Filename: ./deb/（叉叉加速器）xx.plugin.accelerator_1.1.4.deb
+Size: 1037612
+MD5sum: 8561aa89c1bb76096df21caf073d7368
+SHA1: 75b2a3a16e61d55b2ab0b5dea3591c4fa2393f24
+SHA256: 04efe45b158caefd18885ddc2616850bb14c75f46b289b2eac8b3ef541421ade
+Section: Game MODs
+Description: MOD for accelerator
+Author: 叉叉助手
+Icon: file:///Library/Application Support/<package>/Icon-iPhone.png
+Name: xxplugin-accelerator
 
