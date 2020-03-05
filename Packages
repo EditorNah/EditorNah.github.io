@@ -3100,7 +3100,7 @@ Version: 1.1.4
 Architecture: iphoneos-arm
 Installed-Size: 1972
 Depends: firmware (>= 5.1)
-Filename: ./deb/（叉叉加速器）xx.plugin.accelerator_1.1.4.deb
+Filename: ./deb/xx.plugin.accelerator_1.1.4.deb
 Size: 1037612
 MD5sum: 8561aa89c1bb76096df21caf073d7368
 SHA1: 75b2a3a16e61d55b2ab0b5dea3591c4fa2393f24
