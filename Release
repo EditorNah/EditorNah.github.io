@@ -1,8 +1,8 @@
-Origin: Editornah2 Repo
-Label: Editornah2 Repo
+Origin: Editornah's Repo
+Label: Editornah's Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Editornah2 repo
+Description: Editornah's repo
