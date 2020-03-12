@@ -291,7 +291,7 @@ Package: com.ejiaogl.jsboxhook
 Version: 0.1-2
 Architecture: iphoneos-arm
 Depends: firmware (>= 5.0), mobilesubstrate
-Filename: ./deb/com.ejiaogl.jsboxhook_0.1-2_iphoneos-arm.deb
+Filename: ./deb/JSBox破解支持最新2.1破解.deb
 Size: 19772
 MD5sum: 0f79806b178abedf8d5b74c12823fea0
 SHA1: 28fa18f02ee642d6d2f0b7dfbb13e54374e4c340
@@ -342,7 +342,7 @@ Installed-Size: 1348
 Depends: firmware (>= 10.0), mobilesubstrate, preferenceloader, applist
 Conflicts: tw.garynil.swipehome, com.ichitaso.killbackground9, com.ichitaso.killbackground10, com.ichitaso.killbackground11, com.julioverne.sbcard
 Replaces: com.ichitaso.killbackgroundxs
-Filename: ./deb/Killbackgroundxs_1.0.5_(勿改标识，改了弹窗失效)(1).deb
+Filename: ./deb/Killbackgroundxs_1.0.5.deb
 Size: 311462
 MD5sum: 420b2c77c4fce67684b313e0ee78bce1
 SHA1: 4641e2f618f616354012eb01cd10028205792b7d
@@ -489,7 +489,7 @@ Architecture: iphoneos-arm
 Maintainer: LaughingQuoll
 Installed-Size: 592
 Depends: mobilesubstrate, com.laughingquoll.prefixui, com.opa334.ccsupport
-Filename: ./deb/siliqurapro（为你的AirPods增加更多操作.deb
+Filename: ./deb/siliqurapr为你的AirPods增加更多操作.deb
 Size: 92462
 MD5sum: e84298a15d41a4d77dbc04e40a94964d
 SHA1: 1bef6c58c2744d5c51f0877807898c739fe5963c
