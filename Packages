@@ -735,7 +735,7 @@ Maintainer: lenglengyu <lenglengyu@126.com>
 Installed-Size: 4008
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, preferenceloader
 Conflicts: com.yourepo.lenglengyu.prozs
-Filename: ./deb/pro助手 开启各种vip权限(1).deb
+Filename: ./deb/pro助手.deb
 Size: 1224686
 MD5sum: 41d2024a1bd90a2e0e34187a9a02cf28
 SHA1: e110965892c3cdf738306b8c08cd21518089baa5
