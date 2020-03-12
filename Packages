@@ -222,7 +222,7 @@ Architecture: iphoneos-arm
 Maintainer: Ant 蚂蚁源™ <admin@cydia.love>
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, ws.hbang.common (>= 1.11)
 Conflicts: apt.cydiakk.huiyuanzhuanxiang2,apt.cydiakk.huiyuanzhuanxiang,com.cydia.love.huiyuanzhuanxiang12,com.cydia.love.qunzhuzhuanyon
-Filename: ./deb/福利破解合集，设置里开启3.1.8.deb
+Filename: ./deb/福利破解合集设置里开启3.1.8.deb
 Size: 273162
 MD5sum: 012bd693499668bab3015d6db3646b92
 SHA1: 21ef2e6c54a7366a5e80e559a48e112b85543eb4
