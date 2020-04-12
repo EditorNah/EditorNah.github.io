@@ -37,6 +37,24 @@ Icon: file:///Applications/Cydia.app/Sections/Acreson-增强(Enhance).png
 Name: 支付宝B「Unc0ver」
 Sponsor: Acreson <342080124@qq.com>
 
+Package: adv-cmds
+Version: 119-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Provides: ps
+Filename: ./deb/adv-cmds_119-1_iphoneos-arm.deb
+Size: 35562
+MD5sum: bc10e7711b5b88fba6a949306f2c2cda
+SHA1: 7ecf92ff1c4a298866285bce9fe8f86fac1093f3
+SHA256: 5ab82ef025abd0bc0984459fd46d87c1e52da225696c40a21d3bb85edd8a2200
+Section: Administration
+Priority: important
+Multi-Arch: foreign
+Description: finger, fingerd, last, lsvfs, md, ps
+
 Package: cn.netskao.semirestore11
 Version: 1.1.2-1
 Architecture: iphoneos-arm
@@ -183,13 +201,38 @@ Tag: role::hacker
 Author: Samuel Bingner
 Name: plutil
 
+Package: com.cannathea.afc2d-arm64
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 672
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: cy+cpu.arm64, mobilesubstrate, ldid
+Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
+Filename: ./deb/com.cannathea.afc2d-arm64_1.1_iphoneos-arm.deb
+Size: 20418
+MD5sum: 5faf9cc4ca15e23015417e120fd6cecc
+SHA1: 804958c17908094008ecf2edfc89756dc2478cc7
+SHA256: ed5c840759c4bcc9b7b014dacf3cf8dcf23e5e97fe8eab03f97b1a8ab47cbf03
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Description: Allow full file-system access over USB for arm64 devices, especially for those using a KPPLess jailbreak.
+Tag: purpose::daemon, compatible::ios10, compatible::ios11, compatible::ios12
+Author: saurik, Cannathea <csupport@cannathea.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
+Dev: cannathea
+Name: Apple File Conduit "2" (iOS 11+, arm64)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.cokepokes.appstoreplusplus
 Version: 0.9.8-9
 Architecture: iphoneos-arm
 Maintainer: CokePokes
 Depends: firmware (>= 11.0), mobilesubstrate
 Conflicts: com.unlimapps.uaupdatetools
-Filename: ./deb/降级插件最新版 .deb
+Filename: ./deb/com.cokepokes.appstoreplusplus_0.9.8-9_iphoneos-arm.deb
 Size: 1346934
 MD5sum: d6b97e07e2166fdd11fcb8c3aafa30df
 SHA1: ecef6b7b272f89af8cbc661efe26d07f5cf63d94
@@ -200,6 +243,46 @@ Description: Allows you to downgrade/upgrade apps in the AppStore on iOS 11-13.3
 Author: CokePokes
 Depiction: https://cokepokes.github.io/depiction/appstoreplus.html
 Name: AppStore++
+
+Package: com.creaturecoding.libcspreferences
+Version: 1.2.9
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 4948
+Pre-Depends: firmware (>= 8.0), com.ex.libsubstitute | mobilesubstrate, preferenceloader
+Filename: ./deb/com.creaturecoding.libcspreferences_1.2.9_iphoneos-arm.deb
+Size: 657640
+MD5sum: 06cd24b2c80947765a1f82e3ac8745d6
+SHA1: ad0e4cae4033139be214beccdff439651dd261d8
+SHA256: 919f795024746c6067cf719888ff9ac543598b2e2468379852343398a92032c9
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A Preference Library that doesn't suck!
+Tag: compatible_min::iosiOS9
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcspreferences
+Name: libCSPreferences
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcspreferences
+
+Package: com.creaturesurvive.libcscolorpicker
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 460
+Pre-Depends: firmware (>= 7.0)
+Filename: ./deb/com.creaturesurvive.libcscolorpicker_1.0.3_iphoneos-arm.deb
+Size: 91700
+MD5sum: 29ea3d634f859bb9e2d07e3ff98586d1
+SHA1: 581f99322db502d391c456bc2b9536d1f6b4af3e
+SHA256: 7abd92d2a3f4b47bcf701a32783996872f36dcd59bcfad806d6e4095528a260c
+Section: System
+Homepage: https://creaturecoding.com/
+Description: A minimal color picker library for developers
+Tag: purpose::extension, compatible_min::iosiOS7
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: https://creaturecoding.com/?page=depiction&id=libcscolorpicker
+Name: libCSColorPicker
+Sileodepiction: https://creaturecoding.com/sileo/depiction/?package_id=libcscolorpicker
 
 Package: com.cydia.love.kpcrack
 Version: 1.2
@@ -222,7 +305,7 @@ Architecture: iphoneos-arm
 Maintainer: Ant 蚂蚁源™ <admin@cydia.love>
 Depends: mobilesubstrate, com.creaturecoding.libcspreferences, ws.hbang.common (>= 1.11)
 Conflicts: apt.cydiakk.huiyuanzhuanxiang2,apt.cydiakk.huiyuanzhuanxiang,com.cydia.love.huiyuanzhuanxiang12,com.cydia.love.qunzhuzhuanyon
-Filename: ./deb/福利破解合集设置里开启3.1.8.deb
+Filename: ./deb/福利破解合集，设置里开启3.1.8.deb
 Size: 273162
 MD5sum: 012bd693499668bab3015d6db3646b92
 SHA1: 21ef2e6c54a7366a5e80e559a48e112b85543eb4
@@ -334,6 +417,142 @@ Description: 一款图标工具:目前仅供测试,随时可能关闭使用..由
 Author: Jan.<237523005@qq.com>
 Name: 图标助手
 
+Package: com.hackyouriphone.libiarrays
+Version: 1.0.11-beta-9
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Pre-Depends: firmware (>=7.0)
+Conflicts: com.iarrays.libiarrays1
+Filename: ./deb/com.hackyouriphone.libiarrays_1.0.11-beta-9_iphoneos-arm.deb
+Size: 287380
+MD5sum: 3a101818fcb92b0a06836a0a0d6a1607
+SHA1: 2fbb85306219b40ba103115a3bfc2a248d14f72b
+SHA256: 4a6c475b807c05e636b0f98d9741fef17034b9b37a3f6f2738d0d0c0f36666e5
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libiarrays
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Author: IArrays <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libiarrays
+Name: libiarrays
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libiarrays
+
+Package: com.hackyouriphone.libsparkapplist
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: firmware (>= 13.0), mobilesubstrate (>= 0.9.5.000), preferenceloader
+Filename: ./deb/com.hackyouriphone.libsparkapplist_1.0.4_iphoneos-arm.deb
+Size: 69644
+MD5sum: 2edacb4c138defaeb2951c22a6779f94
+SHA1: 1f4aeb1a323a2c830930e55d40b1e391a37d3eda
+SHA256: da25d7431cc356c15e826de5a9e74cbbeeea42a99ecc768635a0bd334dbf0b24
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libsparkapplist
+Description: AppList alternative
+Author: Spark <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=libsparkapplist
+Name: libSparkAppList
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=libsparkapplist
+
+Package: com.hackyouriphone.simplus
+Version: 1.0.3-beta-1
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Pre-Depends: firmware (>=12.0)
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 11.2), com.hackyouriphone.libiarrays, com.rpetrich.rocketbootstrap, com.opa334.ccsupport
+Filename: ./deb/com.hackyouriphone.simplus_1.0.3-beta-1_iphoneos-arm.deb
+Size: 675244
+MD5sum: 6ad118324dc2f99009c4587d923b9dd1
+SHA1: 94f874d7be658297134aa42dfb5fe8807f953093
+SHA256: ab471d6497e68439ec27967949b5fedba7bcb0aa16bc9facdcd9d480a62a713e
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=simplus
+Description: The way Apple has done it for you, but do not worry. We have done it for you. Choose a way how to call or text while using eSim/dual sim iPhones.
+Author: IArrays <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=simplus
+Name: eSim+
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=simplus
+
+Package: com.hackyouriphone.smartnetwork
+Version: 1.0.6-1k
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate, net.limneos.libbulletin | com.hackyouriphone.libbuletin, com.spark.libsparkapplist | com.hackyouriphone.libsparkapplist
+Filename: ./deb/com.hackyouriphone.smartnetwork_1.0.6-1k_iphoneos-arm.deb
+Size: 257122
+MD5sum: 76e90b6da2b6ad8b9ad84f70c79280a6
+SHA1: 9b328cb4d77bb09acca7cb8660d260349c6b12f6
+SHA256: 1427d796aa816b5d852488380ec35653defc198473100b08c9553e775fc6aeae
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=smartnetwork
+Description: Make smart your connection!
+Author: elias <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=smartnetwork
+Name: SmartNetwork
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=smartnetwork
+
+Package: com.hackyouriphone.snapper2
+Version: 2.2.4
+Architecture: iphoneos-arm
+Maintainer: HackYouriPhone <repo@hackyouriphone.org>
+Depends: mobilesubstrate
+Conflicts: com.jontelang.snapper, com.jontelang.snapper2
+Filename: ./deb/com.hackyouriphone.snapper2_2.2.4_iphoneos-arm.deb
+Size: 416088
+MD5sum: 43e8dfec735813ce5efaae62db3ff51f
+SHA1: 95c9acef86eb5858d389d71ccbc76c7385642262
+SHA256: ef7e98de6e3579f01543d6bc677212868359d2d6c66a235e55a7200e109847d1
+Section: HYI - Tweaks
+Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=snapper2
+Description: Pin screenshots on the screen.
+Author: Jonathan Winger-lang <repo@hackyouriphone.org>
+Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=snapper2
+Name: Snapper 2
+Sileodepiction: https://depiction.hackyouriphone.org/sileoDepiction.php?filename=snapper2
+
+Package: com.iarrays.libiarrays
+Version: 1.0.10
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 621
+Depends: firmware(>= 7.0)
+Filename: ./deb/com.iarrays.libiarrays_1.0.10_iphoneos-arm.deb
+Size: 105704
+MD5sum: da8bc9d159359c92e54e12ab8232e7e8
+SHA1: 850c2092bf56877905f62173ca497a5631eb6e45
+SHA256: 60d5807bd12a603ea8ff9b0d40a5684b41ffccbb540f0e639cbb735dfe016c5f
+Section: Development
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libarraysDp
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Tag: purpose::library, cydia::obsolete, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: IArrays <support@iarrays.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libarraysDp
+Dev: iarrays
+Name: libiarrays
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.iarrays.simplus
+Version: 1.0.2-beta-2
+Architecture: iphoneos-arm
+Maintainer: IArrays <support@iarrays.com>
+Installed-Size: 678
+Pre-Depends: firmware (>=12.0)
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 11.2), com.iarrays.libiarrays (>=1.0.10), com.rpetrich.rocketbootstrap, com.opa334.ccsupport
+Filename: ./deb/com.iarrays.simplus_1.0.2-beta-2_iphoneos-arm.deb
+Size: 580334
+MD5sum: 15ade6837083e6cf3188deb845f2d15e
+SHA1: 2d1c61cb4f3beee80a9051e314f93877a3c06dc7
+SHA256: ea0dd428f0f47fa780c9236ff1ae1c98c0e43b31bdb3103d5ce4c25e035ac47a
+Section: Utilities
+Homepage: http://iarrays.com/
+Description: The way Apple has done it for you, but do not worry. We have done it for you. Choose a way how to call or text while using eSim/dual sim iPhones.
+Author: IArrays <support@iarrays.com>
+Depiction: http://iarrays.com/depiction/simplus
+Icon: file:////Library/PreferenceBundles/SimPlusPreferences.bundle/SimPlus@2x.png
+Name: eSim+
+Sileodepiction: http://iarrays.com/sileo-depiction/simplus/simplus.json
+Sponsor: IArrays
+
 Package: com.ichitaso.killbackgroundxs
 Version: 1.0.5
 Architecture: iphoneos-arm
@@ -356,6 +575,31 @@ Depiction: https://repo.packix.com/package/com.ichitaso.killbackgroundxs/
 Dev: ichitaso
 Icon: file:///Library/PreferenceBundles/KillBackgroundSettings.bundle/KB_icon@2x.png
 Name: KillBackgroundXS
+
+Package: com.ichitaso.powerselector11
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1712
+Pre-Depends: firmware (>= 11.0)
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Conflicts: com.ichitaso.powerselector, com.dpkgdan.powertap, com.weesstt.powerdownoptions, com.subdiox.powertap2, com.rustybalboa.powertapxi
+Replaces: com.ichitaso.powerselector11
+Filename: ./deb/com.ichitaso.powerselector11_1.2.1_iphoneos-arm.deb
+Size: 192916
+MD5sum: d1e53297bfbb14674eccf854eea7f7b5
+SHA1: 7f18f282f983f9ce45a50e658d0f1cc81bf4fe5a
+SHA256: a3ce4b5e1ae43870b6dd54811ccadd292394cba6f280004ce4fe0a3c1a10effe
+Section: Utilities
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportpowerselectorDp
+Description: The power supply relation of a device is operated.
+Tag: purpose::extension, compatible::ios11, compatible::ios12
+Author: ichitaso <willfeeltips@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportpowerselectorDp
+Dev: ichitaso
+Icon: file:///Library/PreferenceBundles/PowerSelectorSettings.bundle/icon@2x.png
+Name: PowerSelector (iOS 11 & 12)
+Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.ichitaso.quickcc
 Version: 1.0.0
@@ -499,6 +743,23 @@ Description: Custom actions for AirPods Pro
 Author: LaughingQuoll
 Name: Siliqua Pro
 
+Package: com.laughingquoll.sunflower
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: LaughingQuoll <me@laughingquoll.net>
+Installed-Size: 200
+Depends: firmware (>= 13.0), mobilesubstrate
+Filename: ./deb/com.laughingquoll.sunflower_1.1_iphoneos-arm.deb
+Size: 2998
+MD5sum: dbc369fff41893b8b0524adb3f46c75f
+SHA1: b9065ed8149af6bfcbad63a7c46c640d0cb5e457
+SHA256: 68ea699de12d7e1f1714daea9b71a25b2b7dc5532179ed0f71c466dadd685ddf
+Section: Tweaks
+Description: Make 3D Touch great again!
+Author: LaughingQuoll <me@laughingquoll.net>
+Depiction: https://repo.chariz.com/package/com.laughingquoll.sunflower/
+Name: Sunflower
+
 Package: com.love.sakura
 Version: 0.0.2
 Architecture: iphoneos-arm
@@ -548,6 +809,30 @@ Description: 安装后在 Terminal 运行 ft
 Author: zhaonan <Invalidunit@icloud.com>
 Name: ft
 
+Package: com.opa334.ccsupport
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 201
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Provides: com.ioscreatix.silo
+Filename: ./deb/com.opa334.ccsupport_1.2.2_iphoneos-arm.deb
+Size: 35410
+MD5sum: bedc14592047dfd4d98fd7118ade5cc2
+SHA1: f70e26d16dd5afe9576ee7801b9a4669d1077198
+SHA256: 0f3393ecbc3b4d0cf95f1a554aff9e113fd9a353006d96b8f8b8c7f55e6ce90f
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Description: Support tweak for CC modules!
+Tag: purpose::extension, compatible::ios11, compatible::ios12, compatible::ios13
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+Dev: opa334
+Name: CCSupport
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.p2kdev.snapper2cc
 Version: 1.0
 Architecture: iphoneos-arm
@@ -564,6 +849,25 @@ Description: Invoke the Snapper2 Tweak's actions using CC Toggle!
 Author: P2KDev <p2kdev@gmail.com>
 Icon: file:///Library/Application Support/Snapper2CC/icon.png
 Name: Snapper2 CC Toggle
+
+Package: com.pulandres.libiarrays
+Version: 1.0.11-beta-9
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Pre-Depends: firmware (>=7.0)
+Conflicts: com.iarrays.libiarrays1, com.iarrays.libiarrays
+Filename: ./deb/com.pulandres.libiarrays_1.0.11-beta-9_iphoneos-arm.deb
+Size: 289076
+MD5sum: 4d96a84bbb2c84360065d4009d3cb2b6
+SHA1: 4a62260d21f5a9ed2df95c26077671c72992a99c
+SHA256: 92ad680e865f292deef51df1b0e8b546d1d68ddc137a61440f89902071a31cb0
+Section: Development
+Description: Should be used only by IArrays products. This is closed library and no support is provided for this package.
+Author: IArrays <support@iarrays.com>
+Depiction: https://repo.pulandres.me/index.php?pid=1086
+Icon: https://repo.pulandres.me/CydiaIcon.png
+Name: libiarrays Cracked
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1086
 
 Package: com.pulandres.prysm.beta
 Version: 0.9.4
@@ -584,6 +888,66 @@ Icon: http://repo.pulandres.me/CydiaIcon.png
 Name: Prysm Beta 9 Free
 Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1496
 
+Package: com.pulandres.simplus
+Version: 1.0.3-beta-4
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 678
+Pre-Depends: firmware (>=12.0)
+Depends: mobilesubstrate, preferenceloader, cy+model.iphone (>= 11.2), com.pulandres.libiarrays, com.rpetrich.rocketbootstrap, com.opa334.ccsupport
+Filename: ./deb/com.pulandres.simplus_1.0.3-beta-4_iphoneos-arm.deb
+Size: 678372
+MD5sum: 152d26f91cec0c19e66180282fd789ef
+SHA1: fccaae708bd635e0dc12e762e5245d22d555ea54
+SHA256: 0f809bf9acdd80d70de93d408fd1a7f89190a5087c78e286b656e5f95bfe209d
+Section: Utilities
+Description: The way Apple has done it for you, but do not worry. We have done it for you. Choose a way how to call or text while using eSim/dual sim iPhones.
+Author: IArrays <support@iarrays.com>
+Depiction: https://repo.pulandres.me/index.php?pid=1430
+Icon: file:////Library/PreferenceBundles/SimPlusPreferences.bundle/SimPlus@2x.png
+Name: eSim+ Cracked
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1430
+
+Package: com.pulandres.st5
+Version: 5.0.4
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 2564
+Depends: mobilesubstrate, preferenceloader, applist, com.rpetrich.rocketbootstrap
+Filename: ./deb/com.pulandres.st5_5.0.4_iphoneos-arm.deb
+Size: 759998
+MD5sum: 00dd302918170487529bfad4f0c299ff
+SHA1: 7bc6f4b3734466edcd99729c71d374e8d882243c
+SHA256: 715ca6aaf027b995abf6133b53a692bbd9ee73e20b98811d0ad10053614dccae
+Section: Tweaks
+Description: Customize your device like never before.
+Author: sharedRoutine
+Depiction: https://repo.pulandres.me/index.php?pid=1393
+Icon: https://repo.packix.com/api/Packages/5e3af7ebac886b002f929657/icon/download?size=medium
+Name: Springtomize 5 Free
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=1393
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.7~beta3
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./deb/com.rpetrich.rocketbootstrap_1.0.7~beta3_iphoneos-arm.deb
+Size: 37990
+MD5sum: 7c693be81595deb417858ffc5ae8cd10
+SHA1: e0f1b4afbac67e3c8beb39df819997fd0cb54468
+SHA256: 4b7e9c8a0c6d5fc3179e0c5f7fb880239f8c5f30e481979b9d7e4829d58cfb73
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: com.sileo.hook
 Version: 0.1
 Architecture: iphoneos-arm
@@ -598,6 +962,22 @@ Section: System
 Description: 去除sileo的广告
 Author: Achen
 Name: sileoNoAd
+
+Package: com.spark.libsparkapplist
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Spark
+Installed-Size: 596
+Filename: ./deb/com.spark.libsparkapplist_1.0.3_iphoneos-arm.deb
+Size: 31948
+MD5sum: e53d3c6cbf3fd6d1f744083fc61ba5b7
+SHA1: 296377c94ffc68729cdf36eae668210dbf3f3c36
+SHA256: 6d3b825c2e6b91098bb354cf4bdf179049248656a777eff6ec232fd9d4bf5ea6
+Section: System
+Description: AppList alternative
+Tag: role::developer
+Author: Spark
+Name: libSparkAppList
 
 Package: com.springtomize.st4.new
 Version: 4.0.8
@@ -634,6 +1014,23 @@ Description: Customize your device like never before.
 Author: sharedRoutine
 Name: Springtomize 5
 
+Package: com.tigisoftware.filza64bit
+Version: 3.7.4-12
+Architecture: iphoneos-arm
+Maintainer: TIGI Software
+Installed-Size: 21232
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza
+Filename: ./deb/com.tigisoftware.filza64bit_3.7.4-12_iphoneos-arm.deb
+Size: 8568968
+MD5sum: 854f3ae8590f3485a8d233d8b09bedd0
+SHA1: e58f8c453ddb1cf71b447e829f01d8e39f6c02a8
+SHA256: edd5e0763786e09487fb0d595fe73a3d94dc2cd358aefcea1e9b58b74f17f8e0
+Section: Utilities
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+. This special version only supports 64-bit devices
+Author: TIGI Software
+Name: Filza File Manager 64-bit
+
 Package: com.wxhbts.PullOverPro
 Version: 2.0~b5
 Architecture: iphoneos-arm
@@ -664,6 +1061,26 @@ Section: Tweaks
 Description: Filza crack
 Author: xia0z
 Name: xkfilza
+
+Package: com.xybp888.CallAssist13
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: xybp888 <8657156@qq.com>
+Depends: firmware (>= 13.0), mobilesubstrate,preferenceloader
+Filename: ./deb/com.xybp888.callassist13_1.2.1_iphoneos-arm.deb
+Size: 1053934
+MD5sum: f6b30da7ef2125e67c6a1d38e3e36a42
+SHA1: c3f65745a9f217692f44e0acfb9b68f32ee6c9b6
+SHA256: 99aefdb8ada1aa0bfe2d070d90adf6b8ecd6fb43718812058b14d209a015dbd8
+Section: Tweak
+Priority: optional
+Homepage: https://apt.htv123.com
+Description: 电话助手授权版本,集成T9,通话录音,来去电归属地,黑名单,骚扰拦截,状态栏图标替换,时间格式修改,常用小功能等强大插件
+Author: xybp888 <8657156@qq.com>
+Depiction: https://apt.htv123.com/update.html
+Icon: file:///Library/PreferenceBundles/CallAssistSetting.bundle/CallAssistIcon@3x.png
+Name: 电话助手iOS13-正式完整版(兼容A12/A13)
+Sileodepiction: https://apt.htv123.com/update.html
 
 Package: com.xybp888.CallAssistBar
 Version: 1.0-4
@@ -748,6 +1165,22 @@ Icon: file:///Library/PreferenceBundles/prozs.bundle/icon@2x.png
 Name: Pro助手
 Sileodepiction: https://repo.lenglengyu.top/packageInfo/prozssileo
 
+Package: com.zlwl.pubgm
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: 隔壁王大爷
+Installed-Size: 862
+Depends: mobilesubstrate
+Filename: ./deb/和平自瞄无后除草速降防抖无验证.deb
+Size: 217754
+MD5sum: bea06683555b342238bc9ba27eaaa23b
+SHA1: 048619940307adedc2427e65e1a17d0ba3f2ad2f
+SHA256: 4e38941fc7a968db297d39e0363b902b1d2f0697c1cb19737b29567a84cc5447
+Section: hack
+Description: Pubg Hack
+Author: 隔壁王大爷
+Name: Pubg Hack
+
 Package: com.zlxdike.GestureX
 Version: 1.0.2
 Architecture: iphoneos-arm
@@ -762,6 +1195,26 @@ Priority: optional
 Description: GestureX For iOS12，Update History：https://zlxdike.github.io
 Author: zlxdike
 Name: GestureX
+
+Package: cycript
+Version: 0.9.594
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: readline, adv-cmds, mobilesubstrate (>= 0.9.6300)
+Breaks: cydget (<< 0.9.4008)
+Filename: ./deb/cycript_0.9.594_iphoneos-arm.deb
+Size: 1225008
+MD5sum: cb2d5d1a2806e5da8d2d80c767b0cd36
+SHA1: 1688b612736ae9e51b30230f4519a60865a1d6ba
+SHA256: d522870cf118466a27854ed0d3ead9fa1f102365016375e204c97d34a9408ca1
+Section: Development
+Priority: optional
+Description: runtime execution server and disassembler
+Tag: purpose::daemon, role::developer
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/cycript/
+Name: Cycript
 
 Package: jp.akusio.backgrounderaction13
 Version: 0.1.4
@@ -798,15 +1251,16 @@ Depiction: http://akusio.github.io/descriptions/milkyway2/index.html
 Name: MilkyWay2
 
 Package: jp.soh.aod
-Version: 3.3
+Version: 5.2
 Architecture: iphoneos-arm
 Maintainer: Soh Satoh
-Depends: mobilesubstrate, ws.hbang.common (>= 1.11), org.thebigboss.libcolorpicker, preferenceloader, com.spark.libsparkapplist
-Filename: ./deb/jp.soh.aod_3.3_iphoneos-arm.deb
-Size: 790450
-MD5sum: e9976e77687858b9c4ac5b35994742f1
-SHA1: 2484cfce0f3cc5715be9dc9d2c5b8fec4c201842
-SHA256: 9eeb5cade7597325f8a361c4724fb980c8c279f3ee20e03b3776343341409e5b
+Depends: mobilesubstrate, ws.hbang.common (>= 1.14), org.thebigboss.libcolorpicker, preferenceloader, com.spark.libsparkapplist
+Conflicts: org.cydia.kiimo.cracktool4, com.julioverne.cracktool4
+Filename: ./deb/jp.soh.aod_5.2_iphoneos-arm.deb
+Size: 1089394
+MD5sum: 9ae015f05aa430fb1a4015fb5624a4fa
+SHA1: b8cbd2d1da826180ecb45579fb914f14164937ee
+SHA256: cf87652731d42474ee9c69ddab545de8568d7bb8c75fc0502ac6d96f43460061
 Section: Tweaks
 Description: Cool Always-On Display Tweak
 Author: Soh Satoh
@@ -827,6 +1281,92 @@ Section: Tweaks
 Description: NicebarX自己制作的信号图标
 Author: kupord
 Name: NiceBarX图标
+
+Package: ld64
+Version: 450.3-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 24832
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ldid, xar, liblto10, libtapi10
+Conflicts: org.coolstar.ld64
+Replaces: org.coolstar.ld64
+Provides: org.coolstar.ld64
+Filename: ./deb/ld64_450.3-1_iphoneos-arm.deb
+Size: 1405862
+MD5sum: 0957c142f8dd5d777b66e0e9e2f629cb
+SHA1: 46bc5818bce03bdee325e08af0872a100952bf09
+SHA256: fe8367ed3f31612bd774b8ce651cf472c9e54619860988236649a14a66e1afee
+Section: Development
+Priority: optional
+Description: 64bit iOS linker
+
+Package: liblto10
+Version: 10.0.0~svn-20191106+dcaf932-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 376
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10
+Filename: ./deb/liblto10_10.0.0~svn-20191106+dcaf932-1_iphoneos-arm.deb
+Size: 32334
+MD5sum: e20ac8a165b68ff50b5fde093930f44c
+SHA1: 33f354159bad2ef351b950d1e5f45196df43491c
+SHA256: 72adb93cec7516a8414e29e8e07b275b118f2e82dd00b50116f1489af9c3ac68
+Section: Development
+Priority: optional
+Description: Modular compiler and toolchain technologies, runtime library
+
+Package: libssl1.1.1
+Version: 1.1.1c-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 6600
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ca-certificates
+Filename: ./deb/libssl1.1.1_1.1.1c-1_iphoneos-arm.deb
+Size: 1176232
+MD5sum: d197f45cc07fa9b1ca44e2f0d480634f
+SHA1: 934cda457c55006be2b162fc09b5a42749684d11
+SHA256: 186e1c8395b0e5d51ca605aa62bd36d83ebc03225656f060b008f6e1f073b3d2
+Section: Security
+Priority: standard
+Description: OpenSSL Libraries for version 1.1.1
+Name: OpenSSL 1.1.1 Libraries
+
+Package: libtapi10
+Version: 10.0.0~svn-20191106+dcaf932-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 480
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libllvm10, libclang-cpp10
+Filename: ./deb/libtapi10_10.0.0~svn-20191106+dcaf932-1_iphoneos-arm.deb
+Size: 53126
+MD5sum: de2a41d09acebf068a19568f6824abd8
+SHA1: e3e1438816b334caec4fe640c44c8eb57c4e60e7
+SHA256: a0abc66c27abd6c653b75c66a1f959b67e577e9674fc834cb8beaa092c366087
+Section: Development
+Priority: optional
+Description: Text-based Application Programming Interface (library)
+
+Package: libxml2
+Version: 2.6.32-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 1336
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./deb/libxml2_2.6.32-1_iphoneos-arm.deb
+Size: 88540
+MD5sum: 896a73bec45f384c0cdc85b1d8feb914
+SHA1: c9e05903183f25f60930e08eaeaa656a223f86a3
+SHA256: 987d73e7779ef7d7fe3dae9330cae048c3e59385cd77c251b4639d90eedcdf17
+Section: Development
+Priority: standard
+Homepage: http://xmlsoft.org/
+Description: very popular XML parser from Gnome
+Depiction: http://cydia.saurik.com/info/libxml2/
+Name: libxml2
 
 Package: me.liuming.locationhelper
 Version: 5.3.10
@@ -874,6 +1414,29 @@ Description: Small banners
 Author: Nepeta,v5u871
 Name: Nanobanners2
 
+Package: net.limneos.callbarxs
+Version: 2.3-75
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1316
+Depends: mobilesubstrate, preferenceloader, firmware (>= 12), net.limneos.simpleactivationactions
+Conflicts: com.hackyouriphone.limneosos, net.limneos.callbarx, com.pulandres.audiorecorderxs, com.pulandres.callbarxs, com.repo.xarold.com.audiorecorderxs, com.pulandres.bioprotectxs, net.pulandres.nfcwriterx, com.repo.xarold.com.nfcwriterx, com.pulandres.limneosos, com.repo.xarold.com.limneosos
+Filename: ./deb/net.limneos.callbarxs_2.3-75_iphoneos-arm.deb
+Size: 210556
+MD5sum: 94f5619d724a17d754349d1b5a643dd2
+SHA1: 82956cac3b1b5cb0a4c1a67b9684f13c27bc5ecb
+SHA256: 4ddb65f39e554c5b10e9e0c3fbbc4cb228fa3bab630ded06eceb6a6d65d69e0a
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callbarxsDp
+Description: Don't let incoming calls interrupt you!
+Tag: purpose::extension, compatible::ios12, compatible::ios13
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=callbarxsDp
+Dev: limneos
+Icon: file:///Library/PreferenceBundles/CallBarXPreferences.bundle/CallBarXPreferences@3x.png
+Name: CallBar XS (iOS 12/13)
+Sponsor: thebigboss.org <http://thebigboss.org>
+
 Package: net.limneos.libbulletin
 Version: 0.1-153
 Architecture: iphoneos-arm
@@ -893,6 +1456,27 @@ Author: Elias Limneos <limneoselias@gmail.com>
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libbulletinDp
 Dev: limneos
 Name: libbulletin
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: net.limneos.simpleactivationactions
+Version: 0.1-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 107
+Depends: mobilesubstrate, firmware (>= 10.0)
+Filename: ./deb/net.limneos.simpleactivationactions_0.1-1_iphoneos-arm.deb
+Size: 5934
+MD5sum: 1f123699b5dd8dfca20fa6ae44dc9dfe
+SHA1: 19eb3472f131e093745afb2d19d96c33e9bb8165
+SHA256: ce6fdc4a8f3edb16b745ca305238c81273e0066e3580cb1b3da1e9ca385cddcd
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simpleactivationactionsDp
+Description: Handles StatusBar actions for simple activation events
+Tag: purpose::extension, cydia::obsolete, compatible::ios12
+Author: Elias Limneos <limneoselias@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=simpleactivationactionsDp
+Dev: limneos
+Name: SimpleActivationActions
 Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: net.midkin.notchstatusbar
@@ -949,7 +1533,7 @@ Version: 0.3.3
 Architecture: iphoneos-arm
 Maintainer: Nets
 Depends: mobilesubstrate
-Filename: ./deb/AlipayForest_0.3.3.deb
+Filename: ./deb/netskao.alipayforest_0.3.3_iphoneos-arm.deb
 Size: 6252126
 MD5sum: 06f6fbc6448f6c54357290b01fc212a2
 SHA1: 486cce5abd3fbcff4e64398ed477e3ae6ef561d0
@@ -989,6 +1573,22 @@ Section: Netskao-Tweaks
 Description: 控制中心优化，便捷的控制中心由你来设定，详情看预览图
 Author: Netskao
 Name: AppsHide
+
+Package: netskao.appstoreplusplus
+Version: 0.9.5
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: netskao.appadmin
+Filename: ./deb/netskao.appstoreplusplus_0.9.5_iphoneos-arm.deb
+Size: 1660332
+MD5sum: e740ed7c0a92490ea10a991b84814e61
+SHA1: 6bca355a91b64f2bc62ffc2e8155a7793f6c22fd
+SHA256: d9630d1bebc276ef0c18e75a66f223be112df5951d1a70c0ed8654974e5bc474
+Section: Netskao-插件
+Description: 此版本支持A12-12.2-12.4
+Author: CokePokes
+Name: AppStore++
 
 Package: netskao.apptools13
 Version: 1.3.1
@@ -1197,6 +1797,21 @@ Description: 车来了完美去所有广告，点击“更多信息”跳转下�
 Author: 7Loopy
 Name: 车来了 NoAds
 
+Package: netskao.cracktool4
+Version: 4.0~beta9c
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: ldid (>= 2.1.1), sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: ./deb/netskao.cracktool4_4.0~beta9c_iphoneos-arm.deb
+Size: 510710
+MD5sum: fbe3328fb1446e30338f949b41814078
+SHA1: d5eb280d45b929139b746c5c8a7c67e669b708da
+SHA256: 8c3bfe2f0c1fb4fb146474b9061c3505cc912a71edca4ad088d52908f376be7d
+Section: Netskao-应用
+Description: 插件破解注册机！Filza和iCleanerPro等插件的破解，⚠️注意国行手机自行解决本软件联网问题
+Author: julioverne
+Name: CrackTool4
+
 Package: netskao.cydown
 Version: 7.0.1
 Architecture: iphoneos-arm
@@ -1403,6 +2018,21 @@ Description: 电视家去启动广告，视频开头广告，点击“更多信�
 Author: 7Loopy
 Name: 电视家 NoAds
 
+Package: netskao.dualcellularcolor
+Version: 0.0.1-2
+Architecture: iphoneos-arm
+Maintainer: Nets
+Depends: mobilesubstrate
+Filename: ./deb/netskao.dualcellularcolor_0.0.1-2_iphoneos-arm.deb
+Size: 9238
+MD5sum: 542b52a4bb6587ef29276c72d2a12b6f
+SHA1: 0ea521f5ca95519cefbb26af1e91e9f756491dc9
+SHA256: 837ec6326d43e4f24ee8f834790500e9ec072d99e2d064cb5326c22dd13b97c4
+Section: Netskao-插件
+Description: 双卡设备短信列表和通话记录显示分别的颜色
+Author: xybp888
+Name: DualcellularColor
+
 Package: netskao.dxspnoads
 Version: 1.0-2
 Architecture: iphoneos-arm
@@ -1458,7 +2088,7 @@ Maintainer: Nets
 Depends: mobilesubstrate, firmware (>=12.2) | org.swift.libswift (>=5.0), firmware (>= 9.0)
 Conflicts: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly, Flex3beta
 Replaces: Flexpackage, Flexpackagebeta, com.fuyuchi.flex, Flex2packagebeta, Flex2package,  com.fuyuchi.flex2, Flex2Blackpackagebeta, com.johncoates.Flex3, Flex3FeatureCatalog, Flex3ToolsOnly
-Filename: ./deb/flex3beta_3_Beta86_iphoneos-arm.deb
+Filename: ./deb/netskao.flex3beta_3~Beta86_iphoneos-arm.deb
 Size: 14920804
 MD5sum: 598ac30c1fc081cdc58d302084801038
 SHA1: 34f7ab4dcc05f13d6f8938a6b549059b3a640931
@@ -2072,7 +2702,7 @@ Architecture: iphoneos-arm
 Maintainer: Nets
 Depends: mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.7~beta3)
 Conflicts: com.mpg13.undertime, com.neinzedd9.dateundertimex, com.huchundong.weekrighttimex, com.huchundong.perfecttimex, com.yourepo.kingmehu.perfecttimexs
-Filename: ./deb/perfecttimexs_0.2.1-2_iphoneos-arm.deb
+Filename: ./deb/netskao.perfecttimexs_0.2.1-2_iphoneos-arm.deb
 Size: 67840
 MD5sum: 1a001f20c33e5ddb84ff5f36f03d0d2d
 SHA1: 07de2146090f9c95505d79e60678e10e255571a2
@@ -2144,6 +2774,22 @@ Section: Netskao-增强
 Description: 拼了个长图去广告，点击更多信息跳转下载
 Author: 7Loopy
 Name: 拼了个长图 NoAds
+
+Package: netskao.powerselectorlocalizer
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Nets
+Installed-Size: 344
+Depends: mobilesubstrate
+Filename: ./deb/netskao.powerselectorlocalizer_0.0.1_iphoneos-arm.deb
+Size: 107656
+MD5sum: bb89fd799b611ce508e7b05229b22b1e
+SHA1: 24f335eae63b3d26e1be6f0582fb04d2d8ee7fb8
+SHA256: 08dd713d649d7e0c8106bb211557008abfc528e1ef17a8536a8f5261a268753f
+Section: Netskao-插件
+Description: PowerSelector简体中文汉化补丁，本汉化补丁仅限AppTools正版用户才能使用，否则无效，需先安装PowerSelector再安装本汉化补丁
+Author: aReo
+Name: PowerSelector 汉化补丁
 
 Package: netskao.ppgxnowatermark
 Version: 1.0
@@ -3052,6 +3698,43 @@ Description: 最右保存视频去水印，去除启动广告和评论广告等�
 Author: 7Loopy
 Name: 最右 净化
 
+Package: odcctools
+Version: 927.0.2-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 16456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ld64, libssl1.0, uuid
+Filename: ./deb/odcctools_927.0.2-1_iphoneos-arm.deb
+Size: 911942
+MD5sum: 85f750273e2c37101039733c1b89ee17
+SHA1: 581aa28dffe3213b893d4677529800a9ab3c7618
+SHA256: 90384b93c5cc1bcd4fbc0b6be26a7356cd679370c59bece913ec265cb869e202
+Section: Development
+Priority: optional
+Homepage: http://code.google.com/p/iphone-dev/
+Description: linker and assembler for the iPhone
+Depiction: http://cydia.saurik.com/info/odcctools/
+Name: Darwin CC Tools
+
+Package: openssh
+Version: 8.1-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 9824
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libssl1.1.1
+Filename: ./deb/openssh_8.1-1_iphoneos-arm.deb
+Size: 657520
+MD5sum: c78836e29190054ebd9e982fe0d5c71b
+SHA1: 645d378202cffa8c5725d16306868795096733bb
+SHA256: e31a640ee0f1f85f92d636ba7774d8d9847dff9c73ae8785e2bf4e9ced79ef22
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+Depiction: http://cydia.saurik.com/info/openssh/
+Name: OpenSSH
+
 Package: org.coolstar.sileo
 Version: 1.1.0
 Architecture: iphoneos-arm
@@ -3071,6 +3754,63 @@ Tag: cydia::essential
 Author: Sileo Team <getsileoapp@gmail.com>
 Name: Sileo
 Sileodepiction: https://coolstar.moe/sileoassets/depictionoverride.php?package=org.coolstar.sileo
+
+Package: org.thebigboss.libcolorpicker
+Version: 1.6.7
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 622
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000)
+Replaces: me.nepeta.libcolorpicker
+Provides: me.nepeta.libcolorpicker
+Filename: ./deb/org.thebigboss.libcolorpicker_1.6.7_iphoneos-arm.deb
+Size: 111324
+MD5sum: e23130db2382929b46c8c4c0cb71ebae
+SHA1: 7d48a11480092e8c7891ad04057cde256c124a3a
+SHA256: fc1fe90f1b542f33c3512c2026b5c5bdc411bfad34326dc947406bff55175c52
+Section: Development
+Priority: optional
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Description: color picker library for developers
+Tag: purpose::library, role::developer, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13, cydia::obsolete
+Author: PixelFire <pixelfiredev@helpful.io>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libcolorpickerDp
+Dev: pixelfiredev
+Name: libcolorpicker
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: re.frida.server
+Version: 12.8.14
+Architecture: iphoneos-arm
+Maintainer: Ole André Vadla Ravnås <oleavr@nowsecure.com>
+Installed-Size: 35440
+Conflicts: re.frida.server32
+Filename: ./deb/re.frida.server_12.8.14_iphoneos-arm.deb
+Size: 15130800
+MD5sum: cfa4a2f0db19354f410a42c0de4a4bc0
+SHA1: 2de763353c3c807a396c55b11ca129122c9626fd
+SHA256: 050d3981eee8f335379d4ff3e79beeb51adf923c7ac1527340384e362d25b440
+Section: Development
+Priority: optional
+Homepage: https://www.frida.re/
+Description: Inject JavaScript to explore iOS apps over USB.
+Author: Frida Developers <oleavr@nowsecure.com>
+Name: Frida
+
+Package: uuid
+Version: 1.6.2-1
+Architecture: iphoneos-arm
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 384
+Filename: ./deb/uuid_1.6.2-1_iphoneos-arm.deb
+Size: 24492
+MD5sum: 38330da694cb92480d0c7b3d50f4cb34
+SHA1: c2bdde800a4b0f485a03724d3b8f62e5c19756f6
+SHA256: f79735a20b26ee5a0bdd8e8856745f435aea271235dc22598efd40a0049c79d0
+Section: System
+Priority: important
+Description: universally unique identifiers
+Name: UUID Generator
 
 Package: wiki.qaq.nmlrc
 Version: 1.6
